@@ -1,6 +1,7 @@
 .expense-list-item-box {
     padding: 1.5rem 1rem;
-    border: .8px solid #ccc
+    border: .8px solid #ccc;
+    margin-bottom: 2rem;
 }
 .expense-list-item-box:hover {
     background-color: rgb(245, 245, 245)

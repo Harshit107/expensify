@@ -8,6 +8,8 @@ import { visibleExpense } from './selectors/expenses'
 import {  startSetExpense } from './actions/epenses'
 import { login, logout} from './actions/auth'
 import { firebase } from './firebase/firebase.js'
+import {LoadingPage} from './component/LoadingPage'
+
 import React from 'react'
 const store = configureStore();
 
@@ -27,7 +29,7 @@ const jsx = (
 );
 
 
-ReactDOM.render(<p>Loading..</p>, document.getElementById('root'))
+ReactDOM.render(<LoadingPage />, document.getElementById('root'))
 
 let hasRendered = false;
 const renderApp = () => {
@@ -36,8 +38,6 @@ const renderApp = () => {
     hasRendered = true;
   }
 }
-
-
 
 firebase.auth().onAuthStateChanged((user) => {
   if (user) {

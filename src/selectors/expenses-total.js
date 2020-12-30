@@ -2,10 +2,10 @@
 
 
 const getExpensesTotal = (expenses) => {
-
-    return expenses
-    .map(exp => exp.amount)
-    .reduce( (sum, value) => (sum + value) , 0 );
+    const totalSum = expenses
+        .map(exp => exp.amount)
+        .reduce((sum, value) => (sum + value), 0);
+    return (Math.floor(totalSum *100)/100)
 
 }
 export default getExpensesTotal

@@ -15,3 +15,22 @@
 .expense-summery__button {
     margin: 3rem 0;
 }
+
+@media (max-width : 53rem) {
+.expense-summery {
+    min-height: 90px;
+}
+.expense-summery__title {
+    font-size : 2rem;
+    padding-top: 2rem;
+}
+.expense-summery__bold {
+    font-size : 2rem;
+    font-weight : bold;
+}
+.expense-summery__button {
+    margin: 2rem 0;
+}
+
+
+}

@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { BrowserRouter, Router , Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Redirect , Route, Switch } from 'react-router-dom';
 import { createBrowserHistory } from "history";
 import React from 'react';
 import ExpenceDashboardAppPage from '../component/Dashboard'
@@ -22,7 +22,7 @@ const AppRouter = () => (
         <Route path="/" component={ExpenceDashboardAppPage }  exact={true}/>
         <Route path="/create" component={AddExpencePage} exact={true}/>
         <Route path="/edit/:id" component={EditPage} exact={true}/>
-        <Route path="/*" component={NotFoundPage} exact={true}/>
+        <Redirect to="/" />
       </Switch>
     </div>
   </BrowserRouter>
