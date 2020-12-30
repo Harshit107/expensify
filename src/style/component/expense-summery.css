@@ -1,0 +1,17 @@
+.expense-summery {
+    background-color: rgb(247, 246, 246);
+    min-height: 120px;
+    }
+.expense-summery__title {
+    font-size : 3rem;
+    padding-top: 3rem;
+    font-family: 'Noto Serif', serif;
+}
+.expense-summery__bold {
+    font-size : 3rem;
+    font-weight : bold;
+    font-family: 'Noto Serif', serif;
+}
+.expense-summery__button {
+    margin: 3rem 0;
+}

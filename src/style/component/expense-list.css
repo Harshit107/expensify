@@ -1,0 +1,11 @@
+.expense-list-title {
+    margin-top: 2.5rem;
+}
+.expense-list__title {
+    background : #f1f0f0;
+    padding : 1rem ;
+}
+.expense-list-no-expense {
+    text-align : center;
+    padding : 1rem 0;
+}

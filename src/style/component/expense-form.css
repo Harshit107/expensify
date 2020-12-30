@@ -1,0 +1,15 @@
+.expanse-form {
+    margin-top: 3rem;
+}
+.space {
+    margin: 1rem 0;
+}
+.note-expense {
+    min-height: 10rem;
+}
+.SingleDatePickerInput {
+    width:100%;
+}
+.remove-button {
+    background : grey;
+}

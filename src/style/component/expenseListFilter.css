@@ -1,0 +1,22 @@
+
+.input-group {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+}
+.grow {
+    flex-grow: 1;
+}
+.input-group__item {
+    margin-right : var(--s-size)
+}
+
+@media (max-width: 53rem) {
+    .input-group {
+        flex-direction: column;
+    }
+    .input-group__item {
+        margin-top: .8rem;
+    }
+    
+}

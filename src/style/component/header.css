@@ -1,0 +1,26 @@
+.header-main {
+    background : var(--dark);
+    height: 8rem;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin : 0 auto;
+    align-items: center;
+    height: 100%;
+}
+.header-title {
+   text-decoration : none;
+    color: rgb(228, 227, 227);
+    font-size : 2rem;
+    font-family: 'Langar', cursive;
+    word-spacing: 1.2px;
+}
+.logout {
+    color: rgb(228, 227, 227);
+    font-size: 2.2rem;
+    background : transparent;
+    outline : none;
+    border : none;
+}

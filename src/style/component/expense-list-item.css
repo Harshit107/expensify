@@ -1,0 +1,18 @@
+.expense-list-item-box {
+    padding: 1.5rem 1rem;
+    border: .8px solid #ccc
+}
+.expense-list-item-box:hover {
+    background-color: rgb(245, 245, 245)
+}
+.expenseItemList-amount {
+   font-weight: bold;
+   font-size: 2rem;
+}
+.link-decoration {
+    text-decoration:none;
+    color : black;
+}
+.expense-list-item-desc {
+    max-width: 80%;
+}
