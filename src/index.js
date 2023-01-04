@@ -13,7 +13,7 @@ import {LoadingPage} from './component/LoadingPage'
 import React from 'react'
 const store = configureStore();
 
-// console.log(store.getState());
+console.log(store.getState());
 
 store.subscribe(() => {
     const state = store.getState();
