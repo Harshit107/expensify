@@ -14,7 +14,7 @@ const ExpenseList = (props) => (
        </div>            
             {props.expenses.length === 0 ? <p className="expense-list-no-expense">No Expense</p> :
             <div>
-            {props.expenses.map((expense) => <ExpenseListItem key={expense.id} {...expense}/>)} 
+            {props.expenses.slice(0).reverse().map((expense) => <ExpenseListItem key={expense.id} {...expense}/>)} 
             </div>
             }     
         
