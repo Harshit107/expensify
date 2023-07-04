@@ -20,10 +20,10 @@ const ExpenseSummery = ( {expenseCount, expenseAmount } ) => {
  
 }
 const mapStateToProps = (state) => {
-    const visibleExpense = visibleExpense(state.expenses, {...state.filters} );
+    const varVisExp = visibleExpense(state.expenses, {...state.filters} );
     return {
-        expenseCount: visibleExpense.length,
-        expenseAmount: expenseTotal(visibleExpense)
+        expenseCount: varVisExp.length,
+        expenseAmount: expenseTotal(varVisExp)
     }
 }
 
