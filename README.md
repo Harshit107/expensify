@@ -1,1 +1,1 @@
-# A React Application that manage all you expense
+# A React Application that manages all your expense in one place
