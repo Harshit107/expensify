@@ -4,4 +4,5 @@
   * filter
   * Search
   * Login
+  * delete
     
