@@ -5,5 +5,6 @@
   * Search
   * Login
   * delete
+  * Note
 
     
