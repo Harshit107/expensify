@@ -5,6 +5,7 @@
   * Search
   * Login
   * delete
+  * Automatic detect message and add to database
 
 
     
