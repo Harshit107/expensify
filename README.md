@@ -5,7 +5,7 @@
   * Search
   * Login
   * delete
-  * Android App
+  * Android App to update transaction automatically 
 
 
 
